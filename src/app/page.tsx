@@ -39,7 +39,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          SkyForm | Neobrutalism Weather App
+          SkyForm Weather
         </motion.h1>
         <div className="flex flex-col md:flex-row items-center mb-4">
           <motion.input
