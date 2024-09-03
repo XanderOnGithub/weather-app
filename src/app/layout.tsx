@@ -5,7 +5,7 @@ import "./globals.css";
 const robotoMono = Roboto_Mono({ subsets: ["latin"], weight: ["400", "700"] }); // Specify weights
 
 export const metadata: Metadata = {
-  title: "Neobrutalist Weather App",
+  title: "SkyForm | Neobrutalism Weather App",
   description: "Created by Xander",
 };
 
