@@ -22,7 +22,7 @@ This is a minimalist weather app built using the WeatherAPI. It provides real-ti
 1. Clone the repository: `git clone https://github.com/XanderOnGithub/weather-app`
 2. Navigate to the project directory: `cd weather-app`
 3. Install dependencies: `npm install`
-4. Obtain an API key from WeatherAPI and replace `YOUR_API_KEY` in `config.js` with your key.
+4. Obtain an API key from WeatherAPI and create a `.env` file and add a `NEXT_PUBLIC_API_KEY` and use your key.
 5. Start the app: `npm start`
 
 ## Usage
