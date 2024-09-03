@@ -101,8 +101,8 @@ export default function Home() {
                     <span className="ml-2 text-lg md:text-xl lg:text-2xl font-bold whitespace-normal">{getDayLabel(index, day.date)}</span>
                   </div>
                   <div className="flex justify-between text-lg md:text-xl lg:text-2xl font-bold">
-                    <span>{day.day.maxtemp_f}°F</span>
                     <span>{day.day.mintemp_f}°F</span>
+                    <span>{day.day.maxtemp_f}°F</span>
                   </div>
                   <div className="text-gray-700">{day.day.condition.text}</div>
                 </motion.div>
